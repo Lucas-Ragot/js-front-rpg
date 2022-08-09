@@ -1,0 +1,52 @@
+body {
+  background: #ddd;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#board {
+  background-color: #fff;
+}
+
+.row  {
+  display: flex;
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.targetCell {
+  background-color: aquamarine;
+}
+
+.player {
+  width: 28px;
+  height: 32px;
+  background-image: url("../img/sprite.png");
+}
+
+.top {
+  background-position-y: -96px;
+}
+
+.left {
+  background-position-y: -32px;
+}
+
+.bottom {
+  background-position-y: 0;
+}
+
+.right {
+  background-position-y: -64px;
+}
